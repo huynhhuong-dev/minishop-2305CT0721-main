@@ -1,0 +1,147 @@
+{
+ "1": {
+  "nhanh": null,
+  "bat_buoc": [],
+  "nen_co": [
+   "bao-cao/tuan01/anh-minishop-chay.png"
+  ],
+  "thong_diep": []
+ },
+ "2": {
+  "nhanh": "main",
+  "bat_buoc": [
+   "app.py",
+   "db.py",
+   "views.py",
+   "seed.py",
+   "tests/test_smoke.py",
+   "AI-SUDUNG.md",
+   "bao-cao/tuan02/yeu-cau-an-toan.md",
+   "bao-cao/tuan02/anh-kiem-thu-khoi.png"
+  ],
+  "nen_co": [],
+  "thong_diep": []
+ },
+ "3": {
+  "nhanh": "main",
+  "bat_buoc": [
+   "app.py",
+   "db.py",
+   "views.py"
+  ],
+  "nen_co": [
+   "tests/test_tuan03.py",
+   "bao-cao/tuan03/tai-san-va-ca-lam-dung.md",
+   "bao-cao/tuan03/ghi-chu.md",
+   "bao-cao/tuan03/anh-1-con-va.png",
+   "bao-cao/tuan03/anh-2-da-go-va.png"
+  ],
+  "thong_diep": [
+   "va: HOTRO-4 bam mat khau co muoi",
+   "va: HOTRO-5 khoa ky phien, HOTRO-8 ma phien ngau nhien"
+  ]
+ },
+ "4": {
+  "nhanh": "main",
+  "bat_buoc": [
+   "app.py",
+   "tests/test_smoke.py",
+   "tests/test_tuan04.py",
+   "bao-cao/tuan04/so-do-luong-du-lieu.md",
+   "bao-cao/tuan04/ghi-chu.md",
+   "bao-cao/tuan04/anh-1-truoc-va.png",
+   "bao-cao/tuan04/anh-2-sau-va.png",
+   "bao-cao/tuan04/anh-3-da-go-va.png"
+  ],
+  "nen_co": [],
+  "thong_diep": [
+   "va: HOTRO-3a kiem tra vai tro phia may chu"
+  ]
+ },
+ "5": {
+  "nhanh": null,
+  "bat_buoc": [
+   "db.py",
+   "views.py",
+   "app.py",
+   "tests/test_tuan05.py",
+   "bao-cao/tuan05/bao-cao-tuan05.md"
+  ],
+  "nen_co": [],
+  "thong_diep": [
+   "va: HOTRO-1 truy van tham so hoa",
+   "va: HOTRO-2 thoat ky tu html",
+   "va: HOTRO-3b so khop chu so huu don hang"
+  ]
+ },
+ "6": {
+  "nhanh": null,
+  "bat_buoc": [
+   "app.py",
+   "db.py",
+   "tests/test_tuan06.py",
+   "bao-cao/tuan06/bao-cao-tuan06.md",
+   "bao-cao/tuan06/bao-cao-an-toan-bo-nho.md"
+  ],
+  "nen_co": [],
+  "thong_diep": [
+   "va: HOTRO-6 khong lo noi dung ngoai le",
+   "va: HOTRO-7 cap nhat ton kho nguyen tu"
+  ]
+ },
+ "7": {
+  "nhanh": null,
+  "bat_buoc": [
+   "tests/chuan_bi.py",
+   "tests/khung_http.py",
+   "tests/test_smoke.py",
+   "tests/test_hoiquy.py",
+   "CONG-PHAT-HANH.md",
+   "bang-chung-hoi-quy.md",
+   "bao-cao/tuan07/bao-cao-tuan07.md"
+  ],
+  "nen_co": [],
+  "thong_diep": []
+ },
+ "8": {
+  "nhanh": "main",
+  "bat_buoc": [
+   "THANH-PHAN.md",
+   ".github/workflows/kiem-thu.yml",
+   "bao-cao/tuan08/bao-cao-phu-thuoc.md"
+  ],
+  "nen_co": [],
+  "thong_diep": []
+ },
+ "9": {
+  "nhanh": null,
+  "bat_buoc": [],
+  "nen_co": [
+   "bao-cao/tuan09/BANG-CHUNG.md",
+   "bao-cao/tuan09/THU-XAC-NHAN.md",
+   "bao-cao/tuan09/THONG-BAO-AN-NINH-001.md",
+   "bao-cao/tuan09/quyet-dinh-dao-duc.md"
+  ],
+  "thong_diep": []
+ },
+ "10": {
+  "nhanh": "nop-bai-10",
+  "bat_buoc": [
+   "app.py",
+   "db.py",
+   "views.py",
+   "seed.py",
+   "tests/chuan_bi.py",
+   "tests/khung_http.py",
+   "tests/test_smoke.py",
+   "tests/test_hoiquy.py",
+   "AI-SUDUNG.md",
+   "bang-chung-hoi-quy.md",
+   "CONG-PHAT-HANH.md",
+   "THANH-PHAN.md",
+   ".github/workflows/kiem-thu.yml"
+  ],
+  "nen_co": [],
+  "thong_diep": []
+ }
+}

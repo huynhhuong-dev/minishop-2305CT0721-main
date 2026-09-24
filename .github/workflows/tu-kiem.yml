@@ -1,0 +1,29 @@
+# Tu kiem kho bai lam hoc phan 04210. Chi chay khi sinh vien bam Run workflow,
+# khong chay sau moi lan ghi nhan, de ca lop khong dung het so phut Actions mien
+# phi cua to chuc. Khong sua tep nay.
+name: tu-kiem
+on:
+  workflow_dispatch:
+    inputs:
+      tuan:
+        description: "Tuan can tu kiem"
+        required: true
+        type: choice
+        options: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+permissions:
+  contents: read
+jobs:
+  kiem:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: Tu kiem tuan da chon
+        env:
+          TUAN: ${{ inputs.tuan }}
+        run: python .kiem/tu_kiem.py --tuan "$TUAN"

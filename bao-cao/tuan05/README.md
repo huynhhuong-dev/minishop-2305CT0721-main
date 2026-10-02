@@ -17,6 +17,6 @@ Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 - `va: HOTRO-2 thoat ky tu html`
 - `va: HOTRO-3b so khop chu so huu don hang`
 
-Nộp trên Moodle: Đường dẫn commit.
+Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 5.

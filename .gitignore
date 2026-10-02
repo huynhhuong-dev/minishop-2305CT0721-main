@@ -1,0 +1,10 @@
+# Co so du lieu sinh ra khi chay MiniShop, khong phai ma nguon
+minishop.db
+*.db
+# Tep tam cua Python
+__pycache__/
+*.pyc
+# Tep rac cua he dieu hanh
+.DS_Store
+Thumbs.db
+.kiem/tu-kiem.db

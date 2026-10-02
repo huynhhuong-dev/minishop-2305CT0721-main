@@ -10,6 +10,8 @@ cuc bo tren may ca nhan, khong bao gio dua ra mang cua truong.
 
 import hashlib
 import http.cookies
+import os
+import secrets
 import sys
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
@@ -24,7 +26,7 @@ import views
 HOST = "127.0.0.1"
 PORT = 8000
 
-SESSION_KEY = "minishop-secret-key-2026"
+SESSION_KEY = os.environ.get("MINISHOP_SESSION_KEY") or secrets.token_hex(32)
 
 # Kho phien luu trong bo nho tien trinh: ma phien tro toi ma nguoi dung.
 SESSIONS = {}
@@ -32,10 +34,8 @@ _next_sid = 0
 
 
 def _new_session_id():
-    """Sinh mot ma phien moi."""
-    global _next_sid
-    _next_sid += 1
-    return str(_next_sid)
+    """Sinh mot ma phien moi, khong doan duoc tu mot ma phien da biet."""
+    return secrets.token_hex(16)
 
 
 def _sign(sid):

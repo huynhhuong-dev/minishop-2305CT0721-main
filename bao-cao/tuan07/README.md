@@ -13,7 +13,7 @@ Tệp của tuần này đặt ở chỗ khác trong kho:
 - `CONG-PHAT-HANH.md`
 - `bang-chung-hoi-quy.md`
 
-Nộp trên Moodle: Đường dẫn commit.
+Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn.
 
 Ghi chú: Gộp xong thì xoá các tệp `tests/test_tuan03.py` tới `tests/test_tuan06.py` còn trên kho; tệp `tests/README.md` giữ nguyên.
 

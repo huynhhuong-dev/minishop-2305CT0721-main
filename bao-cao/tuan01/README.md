@@ -4,7 +4,7 @@ Tệp (file) đặt trong thư mục này:
 
 - `anh-minishop-chay.png`
 
-Nộp trên Moodle: Biểu mẫu thu bài thực hành số 1 trên Moodle Topic 1, không nộp qua kho.
+Cách nộp: Biểu mẫu thu bài thực hành số 1 (tuần 1 đã thu xong), không nộp qua kho; từ tuần 2 mọi bài chỉ nộp qua kho.
 
 Ghi chú: Ảnh đưa lên kho ở buổi 2 để tập thao tác, không tính điểm.
 

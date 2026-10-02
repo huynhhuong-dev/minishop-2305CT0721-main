@@ -9,6 +9,6 @@ Tệp của tuần này đặt ở chỗ khác trong kho:
 - `THANH-PHAN.md`
 - `.github/workflows/kiem-thu.yml`
 
-Nộp trên Moodle: Đường dẫn commit, kèm đường dẫn một lần chạy xanh trong tab Actions.
+Cách nộp: Ghi nhận lên kho trước hạn; quy trình kiem-thu.yml phải có ít nhất một lần chạy xanh trong thẻ Actions.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 8.

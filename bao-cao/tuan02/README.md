@@ -14,7 +14,7 @@ Tệp của tuần này đặt ở chỗ khác trong kho:
 - `tests/test_smoke.py`
 - `AI-SUDUNG.md`
 
-Nộp trên Moodle: Đường dẫn commit; cách nộp cũ (tệp PDF và tệp yeu-cau-an-toan.md) vẫn được nhận.
+Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn. Chỉ nhận bài trên kho; bài đã nộp theo cách cũ (tệp PDF và tệp yeu-cau-an-toan.md, hoặc đường dẫn commit trên Moodle) trước ngày 29/09/2026 vẫn được chấm.
 
 Ghi chú: Kho do giảng viên tạo sẵn và đã có mã nguồn; tuần 2 nhận lời mời, điền README, đưa ảnh tuần 1 lên. Phần này là phần tập, không tính vào tầng L2.
 

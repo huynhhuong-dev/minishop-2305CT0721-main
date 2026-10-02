@@ -19,8 +19,8 @@ Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 - `va: HOTRO-4 bam mat khau co muoi`
 - `va: HOTRO-5 khoa ky phien, HOTRO-8 ma phien ngau nhien`
 
-Nộp trên Moodle: Mốc 1: tệp nén MSSV_HoTen_B03.zip trước khi rời phòng. Mốc 2, trong 48 giờ: đường dẫn commit.
+Cách nộp: Mốc 1: ghi nhận bài làm tại lớp lên kho trước 18h00 ngày học. Mốc 2, trong 48 giờ: hai lần ghi nhận riêng với đúng hai thông điệp bắt buộc.
 
-Ghi chú: Báo cáo tuần 3 đã nằm trong tệp nén mốc 1; bản trong kho là bản lưu cho hồ sơ tuần 10.
+Ghi chú: Báo cáo tuần 3 ghi nhận ngay ở mốc 1; bản ấy cũng là bản lưu cho hồ sơ tuần 10.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 3.

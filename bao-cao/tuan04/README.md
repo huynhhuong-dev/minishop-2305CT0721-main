@@ -18,7 +18,7 @@ Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 
 - `va: HOTRO-3a kiem tra vai tro phia may chu`
 
-Nộp trên Moodle: Đường dẫn commit.
+Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn.
 
 Ghi chú: Hai tệp app.py và tests/test_smoke.py ghi nhận một lần, hoặc hai lần liền nhau cùng thông điệp.
 

@@ -7,6 +7,8 @@ Tệp (file) đặt trong thư mục này:
 - `anh-1-truoc-va.png`
 - `anh-2-sau-va.png`
 - `anh-3-da-go-va.png`
+- `openssf-deserialization.md`
+- `khung-tham-chieu.md`
 
 Tệp của tuần này đặt ở chỗ khác trong kho:
 
@@ -20,6 +22,6 @@ Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 
 Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn.
 
-Ghi chú: Hai tệp app.py và tests/test_smoke.py ghi nhận một lần, hoặc hai lần liền nhau cùng thông điệp.
+Ghi chú: Hai tệp app.py và tests/test_smoke.py ghi nhận một lần, hoặc hai lần liền nhau cùng thông điệp. Hai tệp openssf-deserialization.md và khung-tham-chieu.md lấy mẫu trong thư mục phát Buoi-04; mo-rong.md là tuỳ chọn.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 4.

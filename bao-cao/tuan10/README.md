@@ -20,6 +20,6 @@ Nhánh (branch): `nop-bai-10`.
 
 Cách nộp: Ghi nhận cuối cùng trên nhánh nop-bai-10 trước hạn; một lần ghi nhận ấy vừa là bài thực hành số 10 vừa là hồ sơ MiniShop cuối cùng; hạn công bố 23h59 ngày trước buổi 10, giảng viên nhận tới 16h45 ngày học (hết phần một).
 
-Ghi chú: Riêng tệp PDF quét bài tự luận của phần hai buổi 10 đặt ở bao-cao/tuan10/bai-tu-luan-mau.pdf trên nhánh main, không đặt trên nhánh nop-bai-10, ghi nhận muộn nhất 23h59 ngày học.
+Ghi chú: Riêng tệp PDF quét bài tự luận của phần hai buổi 10 đặt ở bao-cao/tuan10/bai-tu-luan-mau.pdf trên nhánh main, không đặt trên nhánh nop-bai-10, ghi nhận muộn nhất 23h59 ngày học. Tệp khung-tham-chieu.md (Phần C, bắt buộc) và các tệp tuỳ chọn openssf-TEN-LAB.md (ví dụ openssf-sql-injection.md), mo-rong.md, anh-juice-shop.png (Phần A, D) đặt ở bao-cao/tuan10 trên nhánh main, cùng hạn với tệp PDF.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 10.

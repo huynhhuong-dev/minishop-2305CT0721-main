@@ -34,7 +34,9 @@
    "bao-cao/tuan03/tai-san-va-ca-lam-dung.md",
    "bao-cao/tuan03/ghi-chu.md",
    "bao-cao/tuan03/anh-1-con-va.png",
-   "bao-cao/tuan03/anh-2-da-go-va.png"
+   "bao-cao/tuan03/anh-2-da-go-va.png",
+   "bao-cao/tuan03/openssf-hardcoded.md",
+   "bao-cao/tuan03/khung-tham-chieu.md"
   ],
   "thong_diep": [
    "va: HOTRO-4 bam mat khau co muoi",
@@ -53,7 +55,10 @@
    "bao-cao/tuan04/anh-2-sau-va.png",
    "bao-cao/tuan04/anh-3-da-go-va.png"
   ],
-  "nen_co": [],
+  "nen_co": [
+   "bao-cao/tuan04/openssf-deserialization.md",
+   "bao-cao/tuan04/khung-tham-chieu.md"
+  ],
   "thong_diep": [
    "va: HOTRO-3a kiem tra vai tro phia may chu"
   ]
@@ -67,7 +72,11 @@
    "tests/test_tuan05.py",
    "bao-cao/tuan05/bao-cao-tuan05.md"
   ],
-  "nen_co": [],
+  "nen_co": [
+   "tests/khung_http.py",
+   "bao-cao/tuan05/openssf-xss.md",
+   "bao-cao/tuan05/khung-tham-chieu.md"
+  ],
   "thong_diep": [
    "va: HOTRO-1 truy van tham so hoa",
    "va: HOTRO-2 thoat ky tu html",
@@ -83,7 +92,11 @@
    "bao-cao/tuan06/bao-cao-tuan06.md",
    "bao-cao/tuan06/bao-cao-an-toan-bo-nho.md"
   ],
-  "nen_co": [],
+  "nen_co": [
+   "tests/song_song.py",
+   "bao-cao/tuan06/openssf-handling-errors.md",
+   "bao-cao/tuan06/khung-tham-chieu.md"
+  ],
   "thong_diep": [
    "va: HOTRO-6 khong lo noi dung ngoai le",
    "va: HOTRO-7 cap nhat ton kho nguyen tu"
@@ -100,7 +113,10 @@
    "bang-chung-hoi-quy.md",
    "bao-cao/tuan07/bao-cao-tuan07.md"
   ],
-  "nen_co": [],
+  "nen_co": [
+   "bao-cao/tuan07/openssf-redos.md",
+   "bao-cao/tuan07/khung-tham-chieu.md"
+  ],
   "thong_diep": []
  },
  "8": {
@@ -110,7 +126,10 @@
    ".github/workflows/kiem-thu.yml",
    "bao-cao/tuan08/bao-cao-phu-thuoc.md"
   ],
-  "nen_co": [],
+  "nen_co": [
+   "bao-cao/tuan08/openssf-osv.md",
+   "bao-cao/tuan08/khung-tham-chieu.md"
+  ],
   "thong_diep": []
  },
  "9": {
@@ -120,7 +139,10 @@
    "bao-cao/tuan09/BANG-CHUNG.md",
    "bao-cao/tuan09/THU-XAC-NHAN.md",
    "bao-cao/tuan09/THONG-BAO-AN-NINH-001.md",
-   "bao-cao/tuan09/quyet-dinh-dao-duc.md"
+   "bao-cao/tuan09/quyet-dinh-dao-duc.md",
+   "bao-cao/tuan09/doc-security-txt-va-ghsa.md",
+   "bao-cao/tuan09/khung-tham-chieu.md",
+   "bao-cao/tuan09/security.txt"
   ],
   "thong_diep": []
  },

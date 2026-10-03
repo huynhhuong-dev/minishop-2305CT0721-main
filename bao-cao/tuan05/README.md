@@ -3,6 +3,8 @@
 Tệp (file) đặt trong thư mục này:
 
 - `bao-cao-tuan05.md`
+- `openssf-xss.md`
+- `khung-tham-chieu.md`
 
 Tệp của tuần này đặt ở chỗ khác trong kho:
 
@@ -10,6 +12,7 @@ Tệp của tuần này đặt ở chỗ khác trong kho:
 - `views.py`
 - `app.py`
 - `tests/test_tuan05.py`
+- `tests/khung_http.py`
 
 Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 
@@ -18,5 +21,7 @@ Thông điệp ghi nhận (commit message) phải có, gõ đúng từng chữ:
 - `va: HOTRO-3b so khop chu so huu don hang`
 
 Cách nộp: Ghi nhận lên kho trước hạn; giảng viên lấy lần ghi nhận cuối cùng trước hạn.
+
+Ghi chú: Hai tệp openssf-xss.md (Phần A, 5 điểm) và khung-tham-chieu.md (Phần C, 4 điểm) mang điểm; mẫu trong thư mục phát Buoi-05. mo-rong.md là tuỳ chọn. Ba tệp này ghi nhận riêng, không chung lần ghi nhận với ba bản vá.
 
 Tên tệp, hạn nộp và cách chấm lấy theo mục "Nộp gì" của tài liệu thực hành buổi 5.

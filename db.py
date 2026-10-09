@@ -7,6 +7,7 @@ xu ly nhieu yeu cau tren nhieu luong khac nhau.
 
 import hashlib
 import os
+import secrets
 import sqlite3
 import time
 
@@ -24,21 +25,35 @@ def connect():
     return conn
 
 
-def hash_password(password):
-    """Bam mat khau thanh chuoi thap luc phan."""
-    return hashlib.md5(password.encode("utf-8")).hexdigest()
+def hash_password(password, salt=None):
+    """Bam mat khau bang ham dan xuat khoa cham co muoi, tra ve chuoi muoi:bam."""
+    if salt is None:
+        salt = secrets.token_hex(16)
+    digest = hashlib.pbkdf2_hmac(
+        "sha256", password.encode("utf-8"), bytes.fromhex(salt), 600000
+    ).hex()
+    return salt + ":" + digest
+
+
+def verify_password(password, stored):
+    """So khop mat khau voi gia tri da luu, dung phep so sanh thoi gian co dinh."""
+    if ":" not in stored:
+        return False
+    salt = stored.split(":", 1)[0]
+    return secrets.compare_digest(hash_password(password, salt), stored)
 
 
 def find_login(username, password):
     """Tim nguoi dung khop ten dang nhap va mat khau. Tra ve ban ghi hoac None."""
-    digest = hash_password(password)
     conn = connect()
     try:
-        sql = (
-            "SELECT * FROM users WHERE username = '" + username
-            + "' AND password_md5 = '" + digest + "'"
-        )
-        return conn.execute(sql).fetchone()
+        sql = "SELECT * FROM users WHERE username = '" + username + "'"
+        row = conn.execute(sql).fetchone()
+        if row is None:
+            return None
+        if not verify_password(password, row["password_md5"]):
+            return None
+        return row
     finally:
         conn.close()
 

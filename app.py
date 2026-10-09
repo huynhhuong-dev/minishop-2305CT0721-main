@@ -157,6 +157,9 @@ class Handler(BaseHTTPRequestHandler):
         if user is None:
             self._redirect("/login")
             return
+        if user["role"] != "admin":
+            self._send(403, views.message_page("Tu choi", "Ban khong co quyen truy cap.", user))
+            return
         self._send(200, views.admin_page(db.list_users(), user))
 
     def do_POST(self):

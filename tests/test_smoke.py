@@ -109,8 +109,8 @@ class SmokeTest(unittest.TestCase):
     def test_admin_page(self):
         cookie = self._login()
         status, body, _ = _get("/admin", cookie=cookie)
-        self.assertEqual(status, 200)
-        self.assertIn("Quan tri nguoi dung", body)
+        self.assertEqual(status, 403)
+        self.assertIn("Tu choi", body)
 
     def test_seed_counts(self):
         conn = db.connect()

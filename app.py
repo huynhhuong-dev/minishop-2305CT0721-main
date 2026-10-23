@@ -147,10 +147,10 @@ class Handler(BaseHTTPRequestHandler):
             return
         order_id = int(path[len("/don/"):])
         order = db.get_order(order_id)
-        if order is None:
+        if order is None or order["user_id"] != user["id"]:
             self._send(404, views.message_page("Khong tim thay", "Don hang khong ton tai.", user))
-        else:
-            self._send(200, views.order_detail_page(order, user))
+            return
+        self._send(200, views.order_detail_page(order, user))
 
     def _show_admin(self, user):
         """Trang quan tri liet ke toan bo nguoi dung."""

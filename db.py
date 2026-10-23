@@ -47,8 +47,8 @@ def find_login(username, password):
     """Tim nguoi dung khop ten dang nhap va mat khau. Tra ve ban ghi hoac None."""
     conn = connect()
     try:
-        sql = "SELECT * FROM users WHERE username = '" + username + "'"
-        row = conn.execute(sql).fetchone()
+        sql = "SELECT * FROM users WHERE username = ?"
+        row = conn.execute(sql, (username,)).fetchone()
         if row is None:
             return None
         if not verify_password(password, row["password_md5"]):
@@ -62,8 +62,8 @@ def search_products(keyword):
     """Tim san pham theo tu khoa trong ten. Tra ve danh sach ban ghi."""
     conn = connect()
     try:
-        sql = "SELECT * FROM products WHERE name LIKE '%" + keyword + "%' ORDER BY id"
-        return conn.execute(sql).fetchall()
+        sql = "SELECT * FROM products WHERE name LIKE ? ORDER BY id"
+        return conn.execute(sql, ("%" + keyword + "%",)).fetchall()
     finally:
         conn.close()
 

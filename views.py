@@ -94,7 +94,7 @@ def products_page(products, user):
 
 def search_page(keyword, products, user):
     """Trang ket qua tim kiem."""
-    body = "<p>Ket qua cho tu khoa: <b>" + keyword + "</b></p>"
+    body = "<p>Ket qua cho tu khoa: <b>" + html.escape(keyword) + "</b></p>"
     body += (
         '<form class="search" method="get" action="/tim">'
         '<input type=text name=q value="">'
